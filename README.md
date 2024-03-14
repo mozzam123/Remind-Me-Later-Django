@@ -6,7 +6,7 @@ Remind-me-later is a web application built with Django that allows users to set 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/remind-me-later.git
+    git clone https://github.com/mozzam123/Remind-Me-Later-Django.git
     ```
 2. Navigate to the project directory:
     ```bash
