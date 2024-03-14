@@ -1,7 +1,8 @@
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path
+from .views import *
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('reminder_app.urls'))
+        path('create/', CreateReminderView.as_view(), name='create_reminder'),
+
 ]
